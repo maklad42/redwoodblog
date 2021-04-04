@@ -11,6 +11,7 @@ const PostsLayout = (props) => {
             Posts
           </Link>
         </h1>
+        <Link to={routes.home()}>Home</Link>
         <Link to={routes.newPost()} className="rw-button rw-button-green">
           <div className="rw-button-icon">+</div> New Post
         </Link>

@@ -1,6 +1,6 @@
-import { routes } from '@redwoodjs/router'
+import { Link, routes } from '@redwoodjs/router'
 
-const BlogPost = (post) => {
+const BlogPost = ({ post }) => {
   return (
     <article>
       <header>
